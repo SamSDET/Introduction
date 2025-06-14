@@ -30,6 +30,7 @@ public class Pass {
 		Sam.quit(); 
 
 	}
+	//GitHub Push and commit from Eclipse 
 	public static String  GetPassword(WebDriver Sam) throws InterruptedException{
 		Sam.get("https://rahulshettyacademy.com/locatorspractice/");
 		Sam.findElement(By.linkText("Forgot your password?")).click();
